@@ -1,0 +1,81 @@
+<!-- 
+
+-Para armar el formato del cocumento html ademas de poder ponerlo con html5*+ ENTER , es mas rápido poner signo de exclamación+ ENTER 
+
+- ALT+Z : para que temporalmente todo el codigo quede dentro del rango de visualizacion.
+
+
+-new file: archivo 
+-new folder : carpeta
+
+Hacemos primero un index.html(un nuevo archivo): esto lo hacemos porque nosotros esto lo vamos a subir a un host/servidor ue estan preparados para iniciar la lectura de la pagina web en el index.html (índice)
+es importante que haya un solo index.html y que este en la ruta raiz, o sea que este direcamente en nuestra carpeta
+
+me quede en minuto 21 de la clase-->
+
+<!-- 
+
+-ELEMENTOS : (En AZUL)
+-ATRIBUTO: cada elemeno puede tener o no un atributo o mas (en CELESTE)  
+-VALOR:  cada atributo puede o no tener valor (en ROJO) 
+-etiqueta : es lo que esta dentro del angular (<>) 
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <!-- lang= informa el lenguaje a las extensiones de google , para comnicarle al brouser-->
+<head>
+    <meta charset="UTF-8">
+    <!-- CHARSET= es la configracion de caracteres, en ruso serian otros por ejemplo,y es lo que no permite poner tildes, hacer la ñ etc -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- esto es unna cuestion de retrocompatibiiidad, esta diiciendo qe un navegador como internet explorer o uno que este basado en internet explorer me va a poder leer el documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- VIEWPORT:es la zona visible de una página web en un dispositivo móvil o en un navegador web, y es importante para asegurarse de que el contenido se vea bien en diferentes tamaños de pantalla. -->
+    <!-- content: la descripcion que tiene en rojo , es decir el valor , me indica que el ancho de pantalla va a ser igual al ancho del dispositivo con una escala inicial de 1.0 (todo esto se lee en la descripcion en rojo ) -->
+    
+    <title>CLASE DE TUTORIA EXPLICANDO CONCEPTOS BÁSICOS</title>
+</head>
+
+<body>
+    
+    <H1>Titulo principal</H1>
+    <H2>hola argentina</H2>
+<u>para subrayar</u>
+</body>
+</html>
+<!-- Shortcuts: "atajos del teclado" 
+CTRL+Z = sirve para volver atras
+CTRL+Y = para rehacer, o sea volver hacia adelante
+ALT+SHFT+A = para comentar la linea de codigo o para descomentarla.
+CTRL+X= CORTAR
+ALT+ FLECHA HACIA ARRIBA O HACIA ABAJO = muevo todo el boque de codigo
+PARA EL MULTICURSOR = manteniendo preionada la tecla ALT+ MARCAR CON EL MOUSE LOS RENGLONES PUEDO ESCRIBIR MCHAS VECES LO MISMO AL MISMO TIMPO
+-->
+
+<!-- GIT
+1-Descargamos git y lo configuramos con nuestro nombre y mail
+2-Vamos a visual studio code a la parte que dice Terminal-Nueva terminal y de ahi escribios el comando = "git init"
+3-Principalmente GIT es un sitema de versionado(guarda la versiones de determinada aplicacion en caso de que haya que retroceder en el proyecto porque algo no fuenciona,por ejemplo)
+DOWGRADEAR : es cuando volvemos atras en un proyecto.
+Los repositorios son lugares donde podemos guardar las distintas versiones de nuestra aplicacion.
+
+4-Cada vez que nosotros guardamos una version en GIT , le vamos a decir "COMIT"
+
+5-todo esto lo hacemos en la terminal y no en una aplicacion porque , esto de git es una aplicacion, solo que es una aplicacion en terminal, es decir en una aplicacion que no tiene un apartado grafico.
+Ahora puntualmente estoy trabajando con la terminal de powershell, del mismo visual studio code.
+
+6-cuando los archvos todavia no tienen seguimiento por Git aparece una U al lado del nombre del archivo(UNTRAKED)
+
+7-Para darle seguimiento a un archivo tenemos que ponerle :   GIT ADD + "EL NOMBRE DEL ARCHIVO"
+luego de eso vamos a notar que la U (untraked) se cambio por la A de added (añadido)
+
+8-si no queremos hacer "git add" por cada archivo podemos poner : GIT ADD . (git add + .)
+esto va a añadir todos los archivo de nuestra carmpeta a git
+
+9-una vez que hacemos el añadido le estamos dando el seguimiento , lo estamos pasando a lo que se conoce como la staging area(mirar en el apunte los estados de git que son modified,staged.commited)
+de la STAGING AREA tenemos que pasarlo a la WORKING AREA (area de trabajo), o sea pasamos de darle seguimiento a guardarlo en una version.
+
+10-para eso ponemos : git commit -m "creo mi primera pagina web" (lo que esta entre comillas seria el titulo que le pongo a la version)
+
+-->
