@@ -1,6 +1,6 @@
-<!-- 
 
--Para armar el formato del cocumento html ademas de poder ponerlo con html5*+ ENTER , es mas rápido poner signo de exclamación+ ENTER 
+<!--
+-Para armar el formato del documento html ademas de poder ponerlo con html5*+ ENTER , es mas rápido poner signo de exclamación+ ENTER 
 
 - ALT+Z : para que temporalmente todo el codigo quede dentro del rango de visualizacion.
 
@@ -8,15 +8,15 @@
 -new file: archivo 
 -new folder : carpeta
 
-Hacemos primero un index.html(un nuevo archivo): esto lo hacemos porque nosotros esto lo vamos a subir a un host/servidor ue estan preparados para iniciar la lectura de la pagina web en el index.html (índice)
+Hacemos primero un index.html(un nuevo archivo): esto lo hacemos porque nosotros esto lo vamos a subir a un host/servidor que estan preparados para iniciar la lectura de la pagina web en el index.html (índice)
 es importante que haya un solo index.html y que este en la ruta raiz, o sea que este direcamente en nuestra carpeta
 
-me quede en minuto 21 de la clase-->
 
-<!-- 
+
+
 
 -ELEMENTOS : (En AZUL)
--ATRIBUTO: cada elemeno puede tener o no un atributo o mas (en CELESTE)  
+-ATRIBUTO: cada elemento puede tener o no un atributo o mas (en CELESTE)  
 -VALOR:  cada atributo puede o no tener valor (en ROJO) 
 -etiqueta : es lo que esta dentro del angular (<>) 
 
@@ -24,7 +24,7 @@ me quede en minuto 21 de la clase-->
 
 <!DOCTYPE html>
 <html lang="en">
-    <!-- lang= informa el lenguaje a las extensiones de google , para comnicarle al brouser-->
+    <!-- lang= informa el lenguaje a las extensiones de google , para comnicarle al browser-->
 <head>
     <meta charset="UTF-8">
     <!-- CHARSET= es la configracion de caracteres, en ruso serian otros por ejemplo,y es lo que no permite poner tildes, hacer la ñ etc -->
@@ -34,14 +34,27 @@ me quede en minuto 21 de la clase-->
     <!-- VIEWPORT:es la zona visible de una página web en un dispositivo móvil o en un navegador web, y es importante para asegurarse de que el contenido se vea bien en diferentes tamaños de pantalla. -->
     <!-- content: la descripcion que tiene en rojo , es decir el valor , me indica que el ancho de pantalla va a ser igual al ancho del dispositivo con una escala inicial de 1.0 (todo esto se lee en la descripcion en rojo ) -->
     
-    <title>CLASE DE TUTORIA EXPLICANDO CONCEPTOS BÁSICOS</title>
+    <title> 1er CLASE DE TUTORIA EXPLICANDO CONCEPTOS BÁSICOS</title>
 </head>
 
 <body>
     
+    
+    
+    
+    
+    
+    
     <H1>Titulo principal</H1>
     <H2>hola argentina</H2>
-<u>para subrayar</u>
+    <u>para subrayar</u>
+
+
+
+
+
+
+
 </body>
 </html>
 <!-- Shortcuts: "atajos del teclado" 
@@ -76,6 +89,18 @@ esto va a añadir todos los archivo de nuestra carmpeta a git
 9-una vez que hacemos el añadido le estamos dando el seguimiento , lo estamos pasando a lo que se conoce como la staging area(mirar en el apunte los estados de git que son modified,staged.commited)
 de la STAGING AREA tenemos que pasarlo a la WORKING AREA (area de trabajo), o sea pasamos de darle seguimiento a guardarlo en una version.
 
-10-para eso ponemos : git commit -m "creo mi primera pagina web" (lo que esta entre comillas seria el titulo que le pongo a la version)
+10-para eso ponemos : git commit -m "creo mi primera pagina web" (lo que esta entre comillas seria el titulo que le pongo a la version, la estiqueta de los cambios que hice)
+
+11-VAMOS A GIT HUB: a-VAMOS A NEW(para crear un nuevo repositorio)
+
+12-Luego le cambiamos el nombre a la rama maestra por main (master tiene otra connotacion en el lenguaje anglosajon y por eso se le cambia el nombre)
+Esto lo hacemos con : git branch -M main.
+
+13- git remote add origin https://github.com/mariano35817919/Primer-tutoria-UTN.git
+con el comando de arriba nosotros le añadimos un origen remoto, le estan dicienfo a git a donde va a subir las cosas, a esa direccion seria.
+
+14- git push -u origin main 
+este seria el ultimo comando para finalizar.
 
 -->
+
